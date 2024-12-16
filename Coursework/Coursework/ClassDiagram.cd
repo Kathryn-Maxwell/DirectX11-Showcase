@@ -1,0 +1,308 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="App1">
+    <Position X="9.75" Y="0.5" Width="1.5" />
+    <Members>
+      <Method Name="~App1" Hidden="true" />
+      <Method Name="App1" Hidden="true" />
+      <Field Name="orthoMesh" Hidden="true" />
+      <Field Name="pathTraceLighting" Hidden="true" />
+      <Field Name="screenSize" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>ABIAAABQAEAABABAAAAAAAAAAAAAAAIgAAAAIQAQAAQ=</HashCode>
+      <FileName>App1.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LightManager">
+    <Position X="11.5" Y="0.5" Width="1.5" />
+    <Members>
+      <Method Name="~LightManager" Hidden="true" />
+      <Method Name="LightManager" Hidden="true" />
+    </Members>
+    <NestedTypes>
+      <Enum Name="LightManager::LightType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>LightManager.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAIABABAACAAAAAAAAAAAAAAAAIABAAAAAAgACAQAAA=</HashCode>
+      <FileName>LightManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BloomShader">
+    <Position X="9.75" Y="7" Width="2.25" />
+    <Members>
+      <Method Name="~BloomShader" Hidden="true" />
+      <Method Name="BloomShader" Hidden="true" />
+      <Method Name="getBloomSamplesCount" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Struct Name="BloomShader::BloomSettingsBufferType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>BloomShader.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Enum Name="BloomShader::BloomState" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>BloomShader.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AACgEABAAAAAACAIAACAAAAAAAEABAAAAgAAAAASAAA=</HashCode>
+      <FileName>BloomShader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DefaultShader">
+    <Position X="7.25" Y="0.5" Width="2.25" />
+    <Members>
+      <Method Name="~DefaultShader" Hidden="true" />
+      <Field Name="camera" Hidden="true" />
+      <Method Name="DefaultShader" Hidden="true" />
+      <Field Name="defaultShaderSettings" Hidden="true" />
+      <Field Name="deviceContext" Hidden="true" />
+      <Method Name="getDefaultShaderSettings" Hidden="true" />
+      <Method Name="mapDefaultShaderSettingsBuffer" Hidden="true" />
+      <Field Name="renderer" Hidden="true" />
+      <Field Name="shaderSettingsBuffer" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Struct Name="DefaultShader::DefaultShaderSettings" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>DefaultShader.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="DefaultShader::DefaultShaderSettingsBufferType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>DefaultShader.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="DefaultShader::LightBufferType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>DefaultShader.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AISgAABACgIEAAggAAAAgAABAAAgAUKAAAACIAAAgAQ=</HashCode>
+      <FileName>DefaultShader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MultiPassRenderShader">
+    <Position X="2.25" Y="7" Width="2.25" />
+    <Members>
+      <Method Name="~MultiPassRenderShader" Hidden="true" />
+      <Method Name="isMultiPassRendering" Hidden="true" />
+      <Field Name="multiPassRendering" Hidden="true" />
+      <Method Name="MultiPassRenderShader" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Struct Name="MultiPassRenderShader::MultiPassRenderSettingsBufferType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>MultiPassRenderShader.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>BACgAAFAAAAAAACAAAAAAAAACAAABIAAAAAAAIAQAAA=</HashCode>
+      <FileName>MultiPassRenderShader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PathTraceShader">
+    <Position X="4.75" Y="7" Width="2.25" />
+    <Members>
+      <Method Name="~PathTraceShader" Hidden="true" />
+      <Method Name="PathTraceShader" Hidden="true" />
+      <Field Name="sphereDataBuffer" Hidden="true" />
+      <Field Name="spheres" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Struct Name="PathTraceShader::CameraDataBufferType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>PathTraceShader.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="PathTraceShader::SphereData" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>PathTraceShader.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="PathTraceShader::MeshesBufferType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>PathTraceShader.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="PathTraceShader::RayTracingSettingsBufferType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>PathTraceShader.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>CAKgIABAAAAAAAUAABAgAAAICAAEQAAAAAAAgAAQAgA=</HashCode>
+      <FileName>PathTraceShader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TerrainShader">
+    <Position X="7.25" Y="7" Width="2.25" />
+    <Members>
+      <Method Name="~TerrainShader" Hidden="true" />
+      <Method Name="TerrainShader" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Struct Name="TerrainShader::DynamicTessellationBufferType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>TerrainShader.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="TerrainShader::HeightMapBufferType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>TerrainShader.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AASgQABAAAACAAAAAAAACAAAAAAIEAAAAAAAQAEAAAA=</HashCode>
+      <FileName>TerrainShader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WaveShader">
+    <Position X="12.25" Y="7" Width="2" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Struct Name="WaveShader::WaveData" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>WaveShader.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="WaveShader::WaveDataBufferType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>WaveShader.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="WaveShader::WaveTessellationBufferType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>WaveShader.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AASgAABAAAAAAAAAAAEAAAgAACAABBAAEAAAAAAAAAA=</HashCode>
+      <FileName>WaveShader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TessellationPlaneMesh">
+    <Position X="16.75" Y="2.5" Width="1.5" />
+    <Members>
+      <Method Name="~TessellationPlaneMesh" Hidden="true" />
+      <Method Name="TessellationPlaneMesh" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAQAAAIEAAACAAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>TessellationPlaneMesh.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PathTraceRenderer">
+    <Position X="0.5" Y="4" Width="1.5" />
+    <Members>
+      <Method Name="~PathTraceRenderer" Hidden="true" />
+      <Field Name="multiPassFrame01" Hidden="true" />
+      <Field Name="multiPassFrame02" Hidden="true" />
+      <Field Name="orthoMesh" Hidden="true" />
+      <Method Name="PathTraceRenderer" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAQAgBAgMCAIAAAAAAAAACAAAAAAACAAIAgAQAQAAA=</HashCode>
+      <FileName>PathTraceRenderer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PostProcessingRenderer">
+    <Position X="2.5" Y="4" Width="1.5" />
+    <Members>
+      <Method Name="~PostProcessingRenderer" Hidden="true" />
+      <Field Name="bloomDownSample01" Hidden="true" />
+      <Field Name="bloomFramePreFiltering" Hidden="true" />
+      <Field Name="bloomUpSamples" Hidden="true" />
+      <Field Name="guiFloat" Hidden="true" />
+      <Field Name="orthoMesh" Hidden="true" />
+      <Method Name="PostProcessingRenderer" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAABAlEAABACAAACAAAAAQAAAAAABAAAAAAAQCAA=</HashCode>
+      <FileName>PostProcessingRenderer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renderer">
+    <Position X="2.5" Y="0.5" Width="1.5" />
+    <Members>
+      <Method Name="~Renderer" Hidden="true" />
+      <Field Name="cubes" Hidden="true" />
+      <Field Name="planeMesh" Hidden="true" />
+      <Field Name="renderer" Hidden="true" />
+      <Method Name="Renderer" Hidden="true" />
+      <Field Name="screenSize" Hidden="true" />
+      <Method Name="SetGuiTheme" Hidden="true" />
+      <Field Name="spheres" Hidden="true" />
+      <Field Name="terrainMesh" Hidden="true" />
+      <Field Name="waterMesh" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAYgIABABgIEAAAAAAAAIAAQAAAACAIAAACAAAEQgAQ=</HashCode>
+      <FileName>Renderer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShaderRenderer">
+    <Position X="4.5" Y="4" Width="1.5" />
+    <Members>
+      <Method Name="~ShaderRenderer" Hidden="true" />
+      <Method Name="renderMesh" Hidden="true" />
+      <Method Name="ShaderRenderer" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAQAAABAgAAAAAACAAAAAAAAAAAAAAAAAAAAAAAQACA=</HashCode>
+      <FileName>ShaderRenderer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="Matrices">
+    <Position X="13.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAACAAAAAAAAgEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ShaderData.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Attenuation">
+    <Position X="16.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAIAAAAAAAAAAAAAAAAAAAAAAIAAACAAA=</HashCode>
+      <FileName>ShaderData.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="LightData">
+    <Position X="15" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAIAAAAAAAIAICAAABAAABAAAAAABAAAA=</HashCode>
+      <FileName>ShaderData.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\Terrain">
+      <UniqueIdentifier>{6702ac81-bcd8-4c2e-9998-48fd791226d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Geometry">
+      <UniqueIdentifier>{8bbaf453-9507-4c50-a242-7f40c9228e76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shaders">
+      <UniqueIdentifier>{85483784-7ed6-4263-8995-0c1886568cd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shaders\HLSLI">
+      <UniqueIdentifier>{69847982-03d3-4fe1-9bdb-642583fd7fac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Default">
+      <UniqueIdentifier>{b3cc1b14-0abd-43d7-84c3-92ca6859f960}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Shaders">
+      <UniqueIdentifier>{99c84341-7a19-49ff-9f46-f30e6b70c952}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Geometry">
+      <UniqueIdentifier>{aa39cf58-c5cf-4d1e-9727-3362b846b218}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Wave">
+      <UniqueIdentifier>{5017a93b-25c6-4baa-8f5b-6a9745c6df63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Renderer">
+      <UniqueIdentifier>{9a0ce45a-8cc1-4a35-b0da-fc4fc04ac48e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Renderer">
+      <UniqueIdentifier>{8ebaca0d-3f25-4fba-993d-82769df0ec20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Path Trace">
+      <UniqueIdentifier>{af5ce69d-8a55-4e31-b18e-92ee5b45160f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\PostProcessing">
+      <UniqueIdentifier>{536f6abd-b3d4-4395-9334-4cd279dfc862}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="App1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TessellationPlaneMesh.cpp">
+      <Filter>Source Files\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="TerrainShader.cpp">
+      <Filter>Source Files\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="DefaultShader.cpp">
+      <Filter>Source Files\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="LightManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WaveShader.cpp">
+      <Filter>Source Files\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderRenderer.cpp">
+      <Filter>Source Files\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>Source Files\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="PathTraceRenderer.cpp">
+      <Filter>Source Files\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="PathTraceShader.cpp">
+      <Filter>Source Files\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiPassRenderShader.cpp">
+      <Filter>Source Files\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="PostProcessingRenderer.cpp">
+      <Filter>Source Files\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="BloomShader.cpp">
+      <Filter>Source Files\Shaders</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="App1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LightManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DefaultShader.h">
+      <Filter>Header Files\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderData.h">
+      <Filter>Header Files\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="TerrainShader.h">
+      <Filter>Header Files\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="TessellationPlaneMesh.h">
+      <Filter>Header Files\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="WaveShader.h">
+      <Filter>Header Files\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderRenderer.h">
+      <Filter>Header Files\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>Header Files\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="PathTraceRenderer.h">
+      <Filter>Header Files\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiPassRenderShader.h">
+      <Filter>Header Files\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="PathTraceShader.h">
+      <Filter>Header Files\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="PostProcessingRenderer.h">
+      <Filter>Header Files\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="BloomShader.h">
+      <Filter>Header Files\Shaders</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="terrain_vs.hlsl">
+      <Filter>Resource Files\Terrain</Filter>
+    </FxCompile>
+    <FxCompile Include="terrain_ds.hlsl">
+      <Filter>Resource Files\Terrain</Filter>
+    </FxCompile>
+    <FxCompile Include="terrain_hs.hlsl">
+      <Filter>Resource Files\Terrain</Filter>
+    </FxCompile>
+    <FxCompile Include="terrain_ps.hlsl">
+      <Filter>Resource Files\Terrain</Filter>
+    </FxCompile>
+    <FxCompile Include="default_vs.hlsl">
+      <Filter>Resource Files\Default</Filter>
+    </FxCompile>
+    <FxCompile Include="default_ps.hlsl">
+      <Filter>Resource Files\Default</Filter>
+    </FxCompile>
+    <FxCompile Include="wave_vs.hlsl">
+      <Filter>Resource Files\Wave</Filter>
+    </FxCompile>
+    <FxCompile Include="wave_hs.hlsl">
+      <Filter>Resource Files\Wave</Filter>
+    </FxCompile>
+    <FxCompile Include="wave_ds.hlsl">
+      <Filter>Resource Files\Wave</Filter>
+    </FxCompile>
+    <FxCompile Include="wave_ps.hlsl">
+      <Filter>Resource Files\Wave</Filter>
+    </FxCompile>
+    <FxCompile Include="default_gs.hlsl">
+      <Filter>Resource Files\Default</Filter>
+    </FxCompile>
+    <FxCompile Include="path-trace_ps.hlsl">
+      <Filter>Resource Files\Path Trace</Filter>
+    </FxCompile>
+    <FxCompile Include="multi-pass_ps.hlsl">
+      <Filter>Resource Files\Path Trace</Filter>
+    </FxCompile>
+    <FxCompile Include="bloom_ps.hlsl">
+      <Filter>Resource Files\PostProcessing</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="VertexManipulation.hlsli">
+      <Filter>Source Files\Shaders\HLSLI</Filter>
+    </None>
+    <None Include="LightingCalculation.hlsli">
+      <Filter>Source Files\Shaders\HLSLI</Filter>
+    </None>
+    <None Include="PathTracing.hlsli">
+      <Filter>Source Files\Shaders\HLSLI</Filter>
+    </None>
+    <None Include="PostProcessing.hlsli">
+      <Filter>Source Files\Shaders\HLSLI</Filter>
+    </None>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>
